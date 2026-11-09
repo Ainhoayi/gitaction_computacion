@@ -1,12 +1,10 @@
 name: nueva prueba
 
-on:
-  push:
+on: push
 
 jobs:
-  mostrarMensaje
+  mostrar_mensaje:
     runs-on: ubuntu-latest
     steps:
-	  - name: muestra prueba
-		run:
-          java --version
+      - name: muestra prueba
+        run: java --version
