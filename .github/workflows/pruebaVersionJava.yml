@@ -9,4 +9,4 @@ jobs:
     steps: 
     - name: Muestra version java
       run:
-        echo "Version" $(java -version)
+        echo "Version" java --version
