@@ -1,4 +1,4 @@
-name: GitAction de prueba
+name: GitAction prueba version
 
 on:
   push: 
