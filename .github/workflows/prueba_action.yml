@@ -3,7 +3,7 @@ name: GitAction de prueba
 on:
   push: 
   
-jobs:
+jobs:
   mostrar_mensaje:
     runs-on: ubuntu-latest
     steps: 
