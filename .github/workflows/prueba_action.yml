@@ -6,10 +6,7 @@ on:
 jobs:
   mostrar_mensaje:
     runs-on: ubuntu-latest
+    steps: 
     - name: Muestra mensaje
       run:
         echo "Hola"
-  
-  trabajo2:
-  
-  trabajo3:
