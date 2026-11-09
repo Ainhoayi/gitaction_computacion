@@ -4,7 +4,7 @@ on:
   push:
 
 jobs:
-  mostrar_mensaje
+  mostrarMensaje
     runs-on: ubuntu-latest
     steps:
 	  - name: muestra prueba
