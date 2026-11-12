@@ -1,0 +1,21 @@
+name: GitAction Hola en java
+
+on:
+  push:
+
+jobs:
+  hola_java:
+    runs-on: ubuntu-lastest
+    steps:
+    - name: descargamos repositorio
+      uses: action/checkout@v5
+    - name: estructura directorios
+      run: |
+        pwd
+        ls -l
+    - name: compilar programa
+      run:
+        javac src/hola.java
+    - name: ejecutamos el programa
+      run:
+        java src/hola
